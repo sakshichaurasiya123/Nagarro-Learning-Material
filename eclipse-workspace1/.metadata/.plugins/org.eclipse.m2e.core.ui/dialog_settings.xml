@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="internal" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="FlightSearchSystem"/>
+			<item value="JDBC_PROJECT"/>
+			<item value="FirstJDBC"/>
+			<item value="Assignment1"/>
+			<item value="FirstProject"/>
+			<item value="HelloWolds"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="FlightSearchSystem"/>
+			<item value="JDBC_PROJECT"/>
+			<item value="FirstJDBC"/>
+			<item value="Assignment1"/>
+			<item value="FirstProject"/>
+			<item value="HelloWolds"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\sakshichaurasiya\eclipse-workspace1"/>
+			<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\advance_java_ass"/>
+			<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\WebAppServlet1"/>
+			<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\HelloWolds"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.spring.first.project.SpringMVCDemo"/>
+			<item value="com.spring.first.project.SpringFirstProject"/>
+			<item value="com.pluralsight.com.SpringFirstProject"/>
+			<item value="com.pluralsight.com.Advance_Java_JSP_Assignment"/>
+			<item value="com.pluralsight.com.AdvanceJava_Assignment"/>
+			<item value="com.pluralsight.com.advance_java_ass"/>
+			<item value="com.pluralsight.com.WebAppServlet1"/>
+			<item value="com.pluralsight.com"/>
+			<item value="com.pluralsight.com.WebAppServlet"/>
+			<item value="com.pluralsight.com.HibernateDemo"/>
+			<item value="com.pluralsight.com.Airport"/>
+			<item value="com.tut"/>
+		</list>
+		<list key="groupId">
+			<item value="com.spring.first.project"/>
+			<item value="com.pluralsight.com"/>
+			<item value="com.tut"/>
+		</list>
+		<list key="artifactId">
+			<item value="SpringMVCDemo"/>
+			<item value="SpringFirstProject"/>
+			<item value="Advance_Java_JSP_Assignment"/>
+			<item value="AdvanceJava_Assignment"/>
+			<item value="advance_java_ass"/>
+			<item value="WebAppServlet1"/>
+			<item value="WebAppServlet"/>
+			<item value="HibernateDemo"/>
+			<item value="Airport"/>
+			<item value="ProjectWithMaven"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

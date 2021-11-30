@@ -1,0 +1,22 @@
+.image {
+    /* background-image:url("../../assets/picture/pexels-cottonbro-5081386.jpg"); */
+    background-image:url("../../assets/picture/main1.jpg");    
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 552px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+  
+   
+  }
+  .center {
+    text-align: center;
+    width: 100%;
+}
+.images {
+  margin-top: 350px;
+  width:40px;
+  height:40px;
+  position: center;
+  text-align: center;
+}

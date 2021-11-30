@@ -1,0 +1,16 @@
+.fa{
+	font-size: 25px;
+	}
+	.card-horizontal {
+	display: flex;
+	flex: 1 1 auto;
+	}
+	
+	.card-center{
+		margin-top: 30px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 position: relative;
+		justify-content: flex-start;
+	}
+	

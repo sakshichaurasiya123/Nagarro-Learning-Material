@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand"><b>Welcome : </b> {{comment.userName}}</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" routerLink="/dashboard">DashBoard</a>
+			</li>
+		</ul>
+		<ul class="navbar-nav">
+			<a (click)="logOutLogin()" class="btn btn-primary btn-md" data-toggle="tooltip" title="Logout">
+				<span class="fa fa-sign-out"></span> Log out
+			  </a>
+		</ul>
+	</div>
+</nav>
+<a class="nav-link" data-toggle="tooltip" title="back"  routerLink="/productList/{{id}}" ><i class="fa fa-arrow-circle-left ml-4"></i></a>
+
+
+<form #simpleForm="ngForm" (ngSubmit)="simpleForm.form.valid && getFormData()"  class="shake" role="form"
+				method="post" id="contactForm" name="contact-form" data-toggle="validator">
+<div class="card bg-light mb-3 large" >
+	<div class="card-header text-center"><b>Add Your Comment Here</b></div>
+	<div class="card-body">
+	  <b class="card-title">Subject</b>
+	  <p class="card-text">
+		  <input class="form-control" rows="3" id="heading" required [(ngModel)]="comment.heading"
+		name="heading" #heading="ngModel" style="color: black;" placeholder="Enter you subject here . . ." />
+	<span class="text-danger" *ngIf="simpleForm.submitted && heading.errors?.required">**Required
+		field!**</span>
+	<div class="help-block with-errors"></div>
+	  <b class="card-title">Comment Body</b>
+	  <p class="card-text">
+		  <textarea class="form-control" rows="3" id="message" [(ngModel)]="comment.comment" name="comment"
+		required #Comments="ngModel" placeholder="Write your message . . ."></textarea>
+	<span class="text-danger" *ngIf="simpleForm.submitted && Comments.errors?.required">**Required
+		field!**</span>
+	<div class="help-block with-errors"></div>
+		<p class="card-text">
+	<div class="form-submit mt-2">
+		<button class="btn btn-primary" type="submit" id="form-submit">
+			<i class="material-icons mdi mdi-message-outline"></i> Add Comment
+		</button>
+		<div id="msgSubmit" class="h3 text-center hidden"></div>
+		<div class="clearfix"></div>
+	</div> 
+	</div>
+  </div>
+  
+  <div class="card position">
+	<div class="card-header text-center"><b>Description</b></div>
+	<div class="card-body">
+		<p class="card-title" style="font-family: -apple-system;"><b>Date: </b>{{product.date}}</p>
+		<p class="card-title" style="font-family: -apple-system;"><b>Author: </b>{{product.userName}}</p>
+		<p class="card-text" style="font-family: -apple-system"><b>Title : </b>{{product.subject}}</p>
+		<p class="card-title" style="font-family: -apple-system"><b>Question: </b>{{product.question}}</p>
+		<p class="card-title" style="font-family: -apple-system;"><b>Decription: </b>{{product.messageBody}}</p>
+		
+	</div>
+  </div>
+
+</form>
+
+
+

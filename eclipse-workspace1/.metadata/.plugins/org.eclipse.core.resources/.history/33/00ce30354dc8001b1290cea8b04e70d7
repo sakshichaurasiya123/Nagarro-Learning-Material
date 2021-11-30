@@ -1,0 +1,9 @@
+package com.spring.first.project.SpringFirstProject;
+
+public class StudentBeen {
+
+	public StudentBeen() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

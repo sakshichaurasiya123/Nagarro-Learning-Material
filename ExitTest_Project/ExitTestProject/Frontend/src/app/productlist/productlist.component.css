@@ -1,0 +1,74 @@
+
+.fa{
+  font-size: 25px;
+}
+.cardhome {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius:15px;
+    
+    }
+    
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+    box-shadow: 0 20px 50px 0 rgba(0,0,0,0.6);
+    border-radius: 30px;
+    }
+    img{
+    border-radius: 10px;
+    }
+    body{
+    background-color: #b8c6db;
+    background-image: linear-gradient(315deg, #b8c6db 5%, #f5f7fa 100%);
+    
+    }
+
+    select {
+        background-color: white;
+        border: thin solid grey;
+        border-radius: 2px;
+        display: inline-block;
+        font: inherit;
+        line-height: 1.5em;
+        padding: 0.3em 2.5em 0.5em 1em;
+        margin-top: 0.5rem;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+      select.arrows {
+        background-image:    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAA3klEQVRIS+3VMU9CMRTF8d8zBL+aizoQFhx0kUk33RzdYMNFXUFnYeGrYYyaJiUxJHDLSxodbNKpfeffc9/pbaPyaCrr+3OA++z4rtT5Pg5GuMnCY9yWQEoBE1xhlUUP8YDrCBIB0vojLvGO0yz4hm4JJAKcYYoPHGOZAUdYoIMBXrc5iQAHeMlzviFygj7O8dkWEJU4XI8chALRhn9AVKHf70VRTHu4wFfbmKZLNKt50dLBnna0imcMd/2I0phWa3Y/D1e1Xa9BCZJG0VuQNpaWKMx72xS1Fl5/WN3BN+AgJhnZQlq4AAAAAElFTkSuQmCC');
+        background-position: calc(100% - .5rem), 100% 0;
+        background-size:  1.0em 1.0em;
+        background-repeat: no-repeat;
+      }
+      
+      select.arrows:focus {
+        border-color: blue;
+        outline: 0;
+      }
+      .card-center{
+        margin-top: 25px;
+         margin-left: auto;
+         margin-right: auto;
+         position: relative;
+        justify-content: flex-start;
+      }
+      
+      input#search-bar {
+        margin: 0;
+        width: 50%;
+        height: 40px;
+        font-size: 1rem;
+        border: 1px solid #D0CFCE;
+        outline: none;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+      }
+
+     
+      

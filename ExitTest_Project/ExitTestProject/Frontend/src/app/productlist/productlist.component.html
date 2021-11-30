@@ -1,0 +1,53 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand"><b>Welcome : </b> {{userName}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/dashboard">DashBoard</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav">
+    <a (click)="logOutLogin()" class="btn btn-primary btn-md" data-toggle="tooltip" title="Logout">
+      <span class="fa fa-sign-out"></span> Log out
+    </a>
+   
+    </ul>
+  </div>
+</nav>
+<a class="nav-link" data-toggle="tooltip" title="back"  routerLink="/dashboard" ><i class="fa fa-arrow-circle-left ml-4"></i></a>
+
+<div class="container mt-4">
+   <input type="search" *ngIf="product.length!=0" [(ngModel)]="searchValue"  id="search-bar" placeholder="Filter Here..."> 
+  <div class="row" *ngIf="product.length!=0||product!=null">
+
+    <div class="col-sm-12 col-md-4 col-12 mt-2" style="height:auto;" *ngFor="let item of product | filter:searchValue">
+      <div class="card cardhome " style="width: auto;height:auto;">
+        <div class="card-body">
+          <p class="card-title" style="font-family: -apple-system;"><b>Date: </b>{{item.date}}</p>
+          <p class="card-title" style="font-family: -apple-system;"><b>Author: </b>{{item.userName}}</p>
+          <p class="card-text" style="font-family: -apple-system"><b>Title : </b>{{item.subject}}</p>
+          <p class="card-title" style="font-family: -apple-system"><b>Question: </b>{{item.question}}</p>
+          <p class="card-title" style="font-family: -apple-system;"><b>Decription: </b>{{item.messageBody}}</p>
+          <a routerLink="/viewList/{{item.subject}}" class="btn btn-primary">All Comments</a>
+          <a routerLink="/addcomment/{{item.subject}}" class="btn btn-primary ml-2"><i class="fa fa-comments"></i>Comment</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div *ngIf="productAvailabl()">
+  <div class="card card-center" style="width: 300px;">
+    <img class="card-img-top"
+      src="https://th.bing.com/th/id/OIP.XsW8qvQmq-Q6aZMnzColEAAAAA?w=170&h=180&c=7&o=5&dpr=1.5&pid=1.7"
+      alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">No Questions Available</h5>
+      <p class="card-text">Please! wait for some day if you search valid product </p>
+    </div>
+  </div>
+</div>

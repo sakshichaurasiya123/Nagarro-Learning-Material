@@ -1,0 +1,20 @@
+package com.spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       System.out.println("Hello world !");
+       ApplicationContext context = new ClassPathXmlApplicationContext("src/main/java/config.xml");
+
+       StudentBeen student=(StudentBeen) context.getBean("Student1");
+       System.out.println(student);
+    }
+}

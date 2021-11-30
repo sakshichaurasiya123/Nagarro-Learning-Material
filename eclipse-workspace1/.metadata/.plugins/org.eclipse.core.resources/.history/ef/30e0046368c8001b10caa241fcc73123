@@ -1,0 +1,34 @@
+package com.springcore;
+
+
+/**
+ * Hello world!
+ *
+ */
+/*
+public class App 
+{
+    public static void main( String[] args )
+    {
+       ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
+
+       Student student1=(Student) context.getBean("student1");
+       System.out.println(student1);
+    }
+}
+*/
+
+import org.springframework.beans.factory.BeanFactory;  
+import org.springframework.beans.factory.xml.XmlBeanFactory;  
+import org.springframework.core.io.ClassPathResource;  
+import org.springframework.core.io.Resource;  
+
+public class App {  
+public static void main(String[] args) {  
+  Resource resource=new ClassPathResource("applicationContext.xml");  
+  BeanFactory factory=new XmlBeanFactory(resource);  
+    
+  Student student=(Student)factory.getBean("studentbean");  
+  student.displayInfo();  
+}  
+}

@@ -1,0 +1,21 @@
+
+.fa{
+    font-size: 25px;
+}
+
+  .position{
+    float: left;
+    width: 30rem;
+    height: 340px;
+    margin-left: 12%;
+    max-height: fit-content;
+  }
+
+.large{
+    float:right;
+    width: 30rem;
+    height: 340px;
+    max-height: 400px;
+    margin-right: 12%;
+
+}

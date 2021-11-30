@@ -1,0 +1,51 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand"><b>Welcome : </b>  {{userName}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/dashboard" >DashBoard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/show-all-questions" >All Questions</a>
+      </li>
+     </ul>
+    <ul class="navbar-nav">
+      <a (click)="logOutLogin()" class="btn btn-primary btn-md" data-toggle="tooltip" title="Logout">
+        <span class="fa fa-sign-out"></span> Log out
+      </a>       
+    </ul>
+  </div>
+</nav> 
+<div class="image">
+  <i class="fa fa-user" style="font-size: xx-large;margin-top:400px;margin-left:auto;position:absolute;color: white;">&nbsp;{{stats.countUsers}}</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa fa-comments" style="font-size: xx-large;margin-top:400px;margin-left:auto;position:absolute;color: white;">&nbsp;{{stats.countComments}}</i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fa fa-book" style="font-size: xx-large;margin-top:400px;margin-left:auto;position:absolute;color: white;">&nbsp;{{stats.countPosts}}</i>
+  
+  
+  
+    <form #simpleForm="ngForm" (ngSubmit)="searchProduct(simpleForm.value.search)" class="search-container">  
+    <div class="main">
+      <!-- Another variation with a button -->
+      <div class="input-group">
+        <input type="text" ngModel class="form-control" name="search" placeholder="Search Here....">
+        <div class="input-group-append" >
+          <button class="btn btn-primary" type="button">
+            <i class="fa fa-search " ></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </form>
+  
+  
+  
+    <button class="button1" (click)='newProduct()' ><i-bs name="plusCircle" ></i-bs> New Topic</button>
+    
+  </div>
+<br>
+
+  

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\sakshichaurasiya\Downloads\registration"/>
+		<item value="D:\Assignments\3167344\New\Assignments1\Core_Java_Assignment"/>
+		<item value="D:\Assignments\3167344\Assignments1\Assignments1"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\AdvanceJava3"/>
+		<item value="C:\Users\sakshichaurasiya\Downloads\AdvanceJava3"/>
+		<item value="C:\Users\sakshichaurasiya\OneDrive - Nagarro\Desktop\Assignment\JSP_Assignment\Advance_Java_JSP_Assignment"/>
+		<item value="D:\Assignments\3167344\JSP_Assignment\Advance_Java_JSP_Assignment"/>
+		<item value="C:\Users\sakshichaurasiya\Downloads\Advance java Assignement 5\Advance java Assignement 5\HrMangementSystem\HrMangementSystem"/>
+		<item value="C:\Users\sakshichaurasiya\Downloads\Advance java Assignement 5\HrMangementSystem"/>
+		<item value="C:\Users\sakshichaurasiya\Downloads\Advance java Assignement 5"/>
+		<item value="C:\Users\sakshichaurasiya\Downloads\HrMangementSystem"/>
+		<item value="C:\Users\sakshichaurasiya\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\HrMangementSystem"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\Advance_Java_JSP_Assignment"/>
+		<item value="C:\Users\sakshichaurasiya\Downloads\spring.flightsearch"/>
+		<item value="C:\Users\sakshichaurasiya\OneDrive - Nagarro\Desktop\spring.flightsearch"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\spring.flightsearch"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\java-spring-mvc-master"/>
+		<item value="C:\Users\sakshichaurasiya\OneDrive - Nagarro\Desktop\Assignment10"/>
+		<item value="C:\Users\sakshichaurasiya\OneDrive - Nagarro\Desktop\SpringMVCDemo"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\Assignment10"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\servletjsp"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\AdvanceJava_JSP_Assignment"/>
+		<item value="C:\Users\sakshichaurasiya\OneDrive - Nagarro\Desktop\Advance_Java_JSP_Assignment"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\FlightSearchSystemAssignment2"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\advancejava2"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\Assignment3"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\FlightSearchSystem.zip"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\FlightSearchSystem"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\Data Structure Assignments"/>
+		<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\Assignment2"/>
+	</list>
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="true" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\AdvanceJava3"/>
+			<item value="C:\Users\sakshichaurasiya\Downloads\ImageRecordManagementAssign4"/>
+			<item value="C:\Users\sakshichaurasiya\eclipse-workspace1\Advance_Java_JSP_Assignment"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
+			<item value="org.eclipse.m2e"/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item value="875" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="711" key="DIALOG_HEIGHT"/>
+		<item value="534" key="DIALOG_X_ORIGIN"/>
+		<item value="47" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

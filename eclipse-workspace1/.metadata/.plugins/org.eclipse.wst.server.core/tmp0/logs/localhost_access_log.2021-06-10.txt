@@ -1,0 +1,4 @@
+127.0.0.1 - - [10/Jun/2021:11:01:21 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:11:01:22 +0530] "GET /Assignment10/WEB-INF/JspResources/register.jsp HTTP/1.1" 404 788
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:11:02:29 +0530] "GET /Assignment10/WEB-INF/JspResources/login.jsp HTTP/1.1" 404 785
+0:0:0:0:0:0:0:1 - - [10/Jun/2021:13:03:51 +0530] "GET /SpringMVCDemo/index.jsp HTTP/1.1" 404 757
